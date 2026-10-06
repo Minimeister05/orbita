@@ -40,3 +40,8 @@ GitHub Pages em https://minimeister05.github.io/orbita/. O workflow .github/work
 Inclui SEO, favicon, imagem OG e modo escuro. A integração Vercel Analytics foi removida: analytics não está ativo no GitHub Pages. Lighthouse e avaliação pedagógica/engajamento com usuários reais ainda precisam ser validados.
 
 Criado com o comando novo do Erick. A etapa remota do shadcn falhou por timeout; a interface usa componentes React e lucide-react sem dependência do shadcn.
+
+## Visual de aventura
+
+Mundos ilustrados, Lumi como companheiro, seleção de níveis, medalhas e respostas com botões coloridos. Ilustrações geradas com imagegen, salvas em public/art e otimizadas como WebP (aproximadamente 705 KB no total). A nova interface preserva o localStorage orbita-v1. Além dos 22 testes anteriores, foram verificados os mundos do roteiro, conquistas, imagens, tela de jogo no celular e layout de tablet.
+
