@@ -9,7 +9,7 @@ npm ci
 npm run dev
 ```
 
-Abra http://localhost:3000. Nenhuma chave ou banco de dados é necessário.
+Abra http://localhost:3000/orbita/. Nenhuma chave ou banco de dados é necessário.
 
 ## Jogos e trilha
 
@@ -35,8 +35,8 @@ npx tsc --noEmit
 
 ## Publicação
 
-Importar este repositório na Vercel como Next.js, usando a branch main e configurações padrão. Cada push dispara um novo deploy. A URL de produção é inferida da Vercel; para domínio próprio, configurar NEXT_PUBLIC_SITE_URL. Não copiar o valor localhost do .env.example para produção.
+GitHub Pages em https://minimeister05.github.io/orbita/. O workflow .github/workflows/pages.yml compila a exportação estática e publica a cada push em main. Nenhuma chave de deploy é armazenada: usa o token temporário do GitHub Actions.
 
-Inclui SEO, favicon, imagem OG, modo escuro e componentes do Vercel Analytics/Speed Insights. Ativar os serviços no painel para coletar dados. Domínio próprio, Lighthouse e avaliação pedagógica/engajamento com usuários reais ainda precisam ser validados.
+Inclui SEO, favicon, imagem OG e modo escuro. A integração Vercel Analytics foi removida: analytics não está ativo no GitHub Pages. Lighthouse e avaliação pedagógica/engajamento com usuários reais ainda precisam ser validados.
 
 Criado com o comando novo do Erick. A etapa remota do shadcn falhou por timeout; a interface usa componentes React e lucide-react sem dependência do shadcn.
